@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		593B95612E6B07340048A405 /* DesktopOverlayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593B95602E6B07340048A405 /* DesktopOverlayApp.swift */; };
+		593B95652E6B07350048A405 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 593B95642E6B07350048A405 /* Assets.xcassets */; };
+		593B95682E6B07350048A405 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 593B95672E6B07350048A405 /* Preview Assets.xcassets */; };
+		593B958C2E6B07620048A405 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593B958B2E6B07620048A405 /* AppDelegate.swift */; };
+		593B958E2E6B07930048A405 /* OverlayContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593B958D2E6B07930048A405 /* OverlayContentView.swift */; };
+		593B95902E6B11FC0048A405 /* walpaper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 593B958F2E6B11FC0048A405 /* walpaper.jpg */; };
+		593B95922E6B16D80048A405 /* ImageCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593B95912E6B16D80048A405 /* ImageCacheManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		593B956F2E6B07350048A405 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 593B95552E6B07340048A405 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 593B955C2E6B07340048A405;
+			remoteInfo = DesktopOverlay;
+		};
+		593B95792E6B07350048A405 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 593B95552E6B07340048A405 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 593B955C2E6B07340048A405;
+			remoteInfo = DesktopOverlay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		593B955D2E6B07340048A405 /* DesktopOverlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesktopOverlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		593B95602E6B07340048A405 /* DesktopOverlayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesktopOverlayApp.swift; sourceTree = "<group>"; };
+		593B95642E6B07350048A405 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		593B95672E6B07350048A405 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		593B95692E6B07350048A405 /* DesktopOverlay.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DesktopOverlay.entitlements; sourceTree = "<group>"; };
+		593B956E2E6B07350048A405 /* DesktopOverlayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesktopOverlayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		593B95782E6B07350048A405 /* DesktopOverlayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesktopOverlayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		593B958B2E6B07620048A405 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		593B958D2E6B07930048A405 /* OverlayContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayContentView.swift; sourceTree = "<group>"; };
+		593B958F2E6B11FC0048A405 /* walpaper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = walpaper.jpg; path = ../../../Downloads/walpaper.jpg; sourceTree = "<group>"; };
+		593B95912E6B16D80048A405 /* ImageCacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCacheManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		593B955A2E6B07340048A405 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		593B956B2E6B07350048A405 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		593B95752E6B07350048A405 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		593B95542E6B07340048A405 = {
+			isa = PBXGroup;
+			children = (
+				593B955F2E6B07340048A405 /* DesktopOverlay */,
+				593B955E2E6B07340048A405 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		593B955E2E6B07340048A405 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				593B955D2E6B07340048A405 /* DesktopOverlay.app */,
+				593B956E2E6B07350048A405 /* DesktopOverlayTests.xctest */,
+				593B95782E6B07350048A405 /* DesktopOverlayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		593B955F2E6B07340048A405 /* DesktopOverlay */ = {
+			isa = PBXGroup;
+			children = (
+				593B95602E6B07340048A405 /* DesktopOverlayApp.swift */,
+				593B95642E6B07350048A405 /* Assets.xcassets */,
+				593B95692E6B07350048A405 /* DesktopOverlay.entitlements */,
+				593B95662E6B07350048A405 /* Preview Content */,
+				593B958B2E6B07620048A405 /* AppDelegate.swift */,
+				593B958F2E6B11FC0048A405 /* walpaper.jpg */,
+				593B958D2E6B07930048A405 /* OverlayContentView.swift */,
+				593B95912E6B16D80048A405 /* ImageCacheManager.swift */,
+			);
+			path = DesktopOverlay;
+			sourceTree = "<group>";
+		};
+		593B95662E6B07350048A405 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				593B95672E6B07350048A405 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		593B955C2E6B07340048A405 /* DesktopOverlay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 593B95822E6B07350048A405 /* Build configuration list for PBXNativeTarget "DesktopOverlay" */;
+			buildPhases = (
+				593B95592E6B07340048A405 /* Sources */,
+				593B955A2E6B07340048A405 /* Frameworks */,
+				593B955B2E6B07340048A405 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DesktopOverlay;
+			productName = DesktopOverlay;
+			productReference = 593B955D2E6B07340048A405 /* DesktopOverlay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		593B956D2E6B07350048A405 /* DesktopOverlayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 593B95852E6B07350048A405 /* Build configuration list for PBXNativeTarget "DesktopOverlayTests" */;
+			buildPhases = (
+				593B956A2E6B07350048A405 /* Sources */,
+				593B956B2E6B07350048A405 /* Frameworks */,
+				593B956C2E6B07350048A405 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				593B95702E6B07350048A405 /* PBXTargetDependency */,
+			);
+			name = DesktopOverlayTests;
+			productName = DesktopOverlayTests;
+			productReference = 593B956E2E6B07350048A405 /* DesktopOverlayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		593B95772E6B07350048A405 /* DesktopOverlayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 593B95882E6B07350048A405 /* Build configuration list for PBXNativeTarget "DesktopOverlayUITests" */;
+			buildPhases = (
+				593B95742E6B07350048A405 /* Sources */,
+				593B95752E6B07350048A405 /* Frameworks */,
+				593B95762E6B07350048A405 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				593B957A2E6B07350048A405 /* PBXTargetDependency */,
+			);
+			name = DesktopOverlayUITests;
+			productName = DesktopOverlayUITests;
+			productReference = 593B95782E6B07350048A405 /* DesktopOverlayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		593B95552E6B07340048A405 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					593B955C2E6B07340048A405 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					593B956D2E6B07350048A405 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 593B955C2E6B07340048A405;
+					};
+					593B95772E6B07350048A405 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 593B955C2E6B07340048A405;
+					};
+				};
+			};
+			buildConfigurationList = 593B95582E6B07340048A405 /* Build configuration list for PBXProject "DesktopOverlay" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 593B95542E6B07340048A405;
+			productRefGroup = 593B955E2E6B07340048A405 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				593B955C2E6B07340048A405 /* DesktopOverlay */,
+				593B956D2E6B07350048A405 /* DesktopOverlayTests */,
+				593B95772E6B07350048A405 /* DesktopOverlayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		593B955B2E6B07340048A405 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				593B95682E6B07350048A405 /* Preview Assets.xcassets in Resources */,
+				593B95902E6B11FC0048A405 /* walpaper.jpg in Resources */,
+				593B95652E6B07350048A405 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		593B956C2E6B07350048A405 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		593B95762E6B07350048A405 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		593B95592E6B07340048A405 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				593B958C2E6B07620048A405 /* AppDelegate.swift in Sources */,
+				593B95922E6B16D80048A405 /* ImageCacheManager.swift in Sources */,
+				593B95612E6B07340048A405 /* DesktopOverlayApp.swift in Sources */,
+				593B958E2E6B07930048A405 /* OverlayContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		593B956A2E6B07350048A405 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		593B95742E6B07350048A405 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		593B95702E6B07350048A405 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 593B955C2E6B07340048A405 /* DesktopOverlay */;
+			targetProxy = 593B956F2E6B07350048A405 /* PBXContainerItemProxy */;
+		};
+		593B957A2E6B07350048A405 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 593B955C2E6B07340048A405 /* DesktopOverlay */;
+			targetProxy = 593B95792E6B07350048A405 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		593B95802E6B07350048A405 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		593B95812E6B07350048A405 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		593B95832E6B07350048A405 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DesktopOverlay/DesktopOverlay.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DesktopOverlay/Preview Content\"";
+				DEVELOPMENT_TEAM = GVWY58MLPZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ui.DesktopOverlay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		593B95842E6B07350048A405 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DesktopOverlay/DesktopOverlay.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DesktopOverlay/Preview Content\"";
+				DEVELOPMENT_TEAM = GVWY58MLPZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ui.DesktopOverlay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		593B95862E6B07350048A405 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ui.DesktopOverlayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DesktopOverlay.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DesktopOverlay";
+			};
+			name = Debug;
+		};
+		593B95872E6B07350048A405 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ui.DesktopOverlayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DesktopOverlay.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DesktopOverlay";
+			};
+			name = Release;
+		};
+		593B95892E6B07350048A405 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ui.DesktopOverlayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = DesktopOverlay;
+			};
+			name = Debug;
+		};
+		593B958A2E6B07350048A405 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ui.DesktopOverlayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = DesktopOverlay;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		593B95582E6B07340048A405 /* Build configuration list for PBXProject "DesktopOverlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				593B95802E6B07350048A405 /* Debug */,
+				593B95812E6B07350048A405 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		593B95822E6B07350048A405 /* Build configuration list for PBXNativeTarget "DesktopOverlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				593B95832E6B07350048A405 /* Debug */,
+				593B95842E6B07350048A405 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		593B95852E6B07350048A405 /* Build configuration list for PBXNativeTarget "DesktopOverlayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				593B95862E6B07350048A405 /* Debug */,
+				593B95872E6B07350048A405 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		593B95882E6B07350048A405 /* Build configuration list for PBXNativeTarget "DesktopOverlayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				593B95892E6B07350048A405 /* Debug */,
+				593B958A2E6B07350048A405 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 593B95552E6B07340048A405 /* Project object */;
+}
